@@ -38,9 +38,6 @@ else:
                     elif kat == "3" and daire == "7":
                         kayit.kat3daire7.aidat[ay] = miktar
                         print("Aidat Başarılı Bir Şekilde Eklendi")
-                    elif kat == "3" and daire == "8":
-                        kayit.kat3daire8.aidat[ay] = miktar
-                        print("Aidat Başarılı Bir Şekilde Eklendi")
                     elif kat == "3" and daire == "9":
                         kayit.kat3daire9.aidat[ay] = miktar
                         print("Aidat Başarılı Bir Şekilde Eklendi")
@@ -107,9 +104,6 @@ else:
                     elif parola == "11410199101112000000":
                         print("Hoşgeldin", kayit.kat3daire7.isim.capitalize(), kayit.kat3daire7.soyisim)
                         print(kayit.kat3daire7.aidat.get(ay,"Bir Hata Oluştu"))
-                    elif parola == "":
-                        print("Hoşgeldin", kayit.kat3daire8.isim.capitalize(), kayit.kat3daire8.soyisim)
-                        print(kayit.kat3daire8.aidat.get(ay,"Bir Hata Oluştu"))
                     elif parola == "97114100970000000000":
                         print("Hoşgeldin", kayit.kat3daire9.isim.capitalize(), kayit.kat3daire9.soyisim)
                         print(kayit.kat3daire9.aidat.get(ay,"Bir Hata Oluştu"))
