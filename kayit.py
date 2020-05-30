@@ -1,5 +1,4 @@
 import sqlite3 as sql
-from time import sleep
 class Uye:
     parolalar = list()
     __isimler = list()
@@ -63,20 +62,20 @@ class Yonetici:
         vt.commit()
         vt.close()
 
-# Apartman Kaydı Oluşturuluyor #
-kat1daire1 = Uye("Kemal")
-kat1daire2 = Uye("Mehmet")
-kat1daire3 = Uye("Mustafa")
-kat2daire4 = Uye("Abdullah")
-kat2daire5 = Uye("Hakan")
-kat2daire6 = Uye("Goktug")
-kat3daire7 = Uye("Recep")
-kat3daire8 = Yonetici(isim="Kamil",soyisim="Çiçek")
-kat3daire9 = Uye("Arda")
-kat4daire10 = Uye("Ali")
-kat4daire11 = Uye("Ozlem")
-kat4daire12 = Uye("Celal")
-kat5daire13 = Uye("Berk")
-kat5daire14 = Uye("Buğra")
-kat5daire15 = Uye("Muhammed")
-kat6daire16 = Uye("Serdar")
+if __name__ != "__main__":
+    kat1daire1 = Uye("Kemal","Cansever")
+    kat1daire2 = Uye("Mehmet","Gül")
+    kat1daire3 = Uye("Mustafa","Karataş")
+    kat2daire4 = Uye("Abdullah","Dal")
+    kat2daire5 = Uye("Hakan","Fidan")
+    kat2daire6 = Uye("Goktug","Kızıl")
+    kat3daire7 = Uye("Recep","İvedik")
+    kat3daire8 = Yonetici("Kamil","Çiçek")
+    kat3daire9 = Uye("Arda","Çiçek")
+    kat4daire10 = Uye("Ali","Cihat")
+    kat4daire11 = Uye("Ozlem","Budanur")
+    kat4daire12 = Uye("Celal","Kurt")
+    kat5daire13 = Uye("Berk","Sarıtaş")
+    kat5daire14 = Uye("Buğra","Aksoy")
+    kat5daire15 = Uye("Muhammed","Katılmış")
+    kat6daire16 = Uye("Serdar","Yurtseven")
